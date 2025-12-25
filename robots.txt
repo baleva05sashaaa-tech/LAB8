@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+Allow: /
+
+Sitemap: https://baleva95sashaaa-tech.github.io/LA88/sitemap.xml
