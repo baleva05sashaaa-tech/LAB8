@@ -5,4 +5,5 @@ Disallow: /images/
 
 Allow: /
 
-Sitemap: https://baleva95sashaaa-tech.github.io/LA88/sitemap.xml
+
+Sitemap: https://baleva05sashaaa-tech.github.io/LA88/sitemap.xml
