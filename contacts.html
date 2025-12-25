@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Как со мной связаться</title>
+    <meta name="description" content="Контактная информация для связи по вопросам сотрудничества или обсуждения проектов.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Свяжитесь со мной</h1>
+        
+        <section>
+            <h2>Контактная информация</h2>
+            <p>Если у вас есть вопросы или предложения, напишите мне:</p>
+            
+            <h3>Электронная почта</h3>
+            <p>student@university.edu</p>
+            
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/ваш-логин">github.com/ваш-логин</a></p>
+            
+            <h3>Местоположение</h3>
+            <p>Город, Страна</p>
+        </section>
+
+        <section>
+            <h2>Форма обратной связи</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Учебный проект. Страница "Контакты".</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
